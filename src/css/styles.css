@@ -1,18 +1,30 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+main {
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+  padding-top: 50px;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.timer {
+  
+  color: antiquewhite;
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 10%;
+  padding: 0 10px;
+
+}
+
+.snackbar{
+  color: antiquewhite;
+  background-color: green;
+  border: 1px solid groove;
+  text-decoration: none;
+  border-radius: 10%;
+  padding: 0 10px;
+}
